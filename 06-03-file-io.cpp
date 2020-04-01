@@ -18,7 +18,7 @@ int main(){
  os.close();
 
  os.open("out.txt", ios::app);
- os << "a[[end this";
+ os << "append this";
  os.close();
 
  ifstream  is("out.txt");
@@ -29,6 +29,8 @@ int main(){
 
  is >> ii >> dd >> namename;
  is.close();
+
+ cout << ii << " " << dd << " " << namename << endl;
 
 
   return 0;

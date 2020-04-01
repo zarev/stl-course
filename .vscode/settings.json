@@ -45,6 +45,11 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "thread": "cpp",
-    "cerrno": "cpp"
+    "cerrno": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "regex": "cpp",
+    "valarray": "cpp",
+    "filesystem": "cpp"
   }
 }
